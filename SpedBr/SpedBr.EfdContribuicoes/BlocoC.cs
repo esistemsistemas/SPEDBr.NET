@@ -1283,6 +1283,9 @@ namespace SpedBr.EfdContribuicoes
             /// </summary>
             [SpedCampos(14, "VL_COFINS", "N", 0, 2, false)]
             public decimal? VlCofins { get; set; }
+
+            [SpedCampos(15, "CHV_DOCe", "N", 44, 0, false)]
+            public string ChvDoce { get; set; }
         }
         
         public class RegistroC501 : RegistroBaseSped
